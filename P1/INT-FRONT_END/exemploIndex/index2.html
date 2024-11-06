@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Completo</title>
+    <style>
+        form {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Nosso Formulário Completo</h1>
+    <form 
+        id="form-completo"
+        class="form-completo"
+        method="get"
+        action="./pagina2.html">
+        
+        <label for="componome">Nome:</label>
+        <input type="text" id="componome" name="nome">
+        <br>
+        
+        <label>Radio buttons:</label><br>
+        <input type="radio" id="opcao1" name="opcao" value="Opcao1">
+        <label for="opcao1">Opção 1</label>
+        <br>
+        <input type="radio" id="opcao2" name="opcao" value="Opcao2">
+        <label for="opcao2">Opção 2</label>
+        <br>
+        <input type="radio" id="opcao3" name="opcao" value="Opcao3">
+        <label for="opcao3">Opção 3</label>
+        <br>
+
+        <br>
+        
+        <label>Radio2 buttons2:</label><br>
+        <input type="radio" id="opcao1" name="opcao2" value="Opcao1">
+        <label for="opcao2">Opção 1</label>
+        <br>
+        <input type="radio" id="opcao2" name="opcao2" value="Opcao2">
+        <label for="opcao2">Opção 2</label>
+        <br>
+        <input type="radio" id="opcao3" name="opcao2" value="Opcao3">
+        <label for="opcao2">Opção 3</label>
+        <br>
+
+
+        <br>
+        <label>Check boxes:</label><br>
+        <input type="checkbox" id="checkbox1" name="checkbox" value="Opcao1">
+        <label for="checkbox1">Opção 1</label>
+        <br>
+        <input type="checkbox" id="checkbox2" name="checkbox" value="Opcao2">
+        <label for="checkbox2">Opção 2</label>
+        <br>
+        <input type="checkbox" id="checkbox3" name="checkbox" value="Opcao3">
+        <label for="checkbox3">Opção 3</label>
+        <br>
+        <label for=""></label>
+
+        <br>
+        <label>selecione a opcao</label>
+        <br>
+        <select id="selecionarOpcao"
+        name="selecionarOpcao" required>
+        <option value="opcao1"> Opcao1</option>
+        <option value="opcao2">Opcao2</option>
+        <option value="opcao3">Opcao3</option>
+        <br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
